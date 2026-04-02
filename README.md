@@ -44,13 +44,13 @@ This keeps the project organized and separates:
 Step 1 — Create memory from documents:
 
 ```
-python create_memory_with_llm.py  
+python create_memory_for_llm.py  
 ```
 
 Step 2 — Use the created memory for question answering:
 
 ```
-python create_memory_for_llm.py
+python create_memory_with_llm.py
 ```
 
 Make sure the generated memory/vector files exist inside the **vector_store** folder before running the query script.
